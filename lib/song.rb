@@ -4,7 +4,7 @@ class Song
   @@count=0
   @@artists=[]
   @@genres=[]
-  @@genre_count=Hash.new { |hash, key| hash[key] =0 }
+  @@genre_count={}
 
   def self.count
     @@count
